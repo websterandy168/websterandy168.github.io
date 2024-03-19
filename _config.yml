@@ -1,0 +1,41 @@
+remote_theme: pages-themes/slate
+
+title: Breakthroughmath.org
+description: Individualized mathematics enrichment and acceleration with an experienced math teacher with an elite STEM education.
+
+# Optional settings
+# Uncomment and customize as needed
+
+# baseurl: "" # the subpath of your site, e.g. /blog, if your site is hosted at https://example.com/blog/
+# url: "" # the base hostname & protocol for your site, e.g. https://example.com
+# twitter_username: your_twitter_username
+# github_username: your_github_username
+
+# For syntax highlighting
+highlighter: rouge
+markdown: kramdown
+
+# Site settings
+theme: jekyll-theme-slate
+permalink: /:year/:month/:day/:title/
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Markdown processor
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# Sass/scss
+sass:
+  sass_dir: _sass
+  style: compressed
